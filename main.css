@@ -1,19 +1,10 @@
-#num2{
-    color: blue;
-    font-size: 36px;
-}
-
-#num4{
-    background-color: lightgreen;
-    font-size: 24px;
-}
-
-.odd{
-    font-family: Verdana, "sans-serif", "DejaVu Sans";
-    background-color: pink;
+.avatar.proportioned{
+    width: 300px;
+    height: auto;
 
 }
 
-.odd-cool{
-    font-size: 24px;
+.avatar.distorted{
+    width: 200px;
+    height: 400px;
 }
