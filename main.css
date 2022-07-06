@@ -1,37 +1,43 @@
-.para {
-    color: hsl(0, 100%, 50%);
-    font-size: 22px;
-}
-
-.small-para {
-    font-size: 14px;
-    
-}
-
-
-
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-#confirm-button{
-    color: white;
-    background-color: green;
-}
-button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-}
-
-.text {
-    color: green;
-    font-size: 22px;
+body {
+    background: #eee;
+    font-family: sans-serif;
   }
+  
+  .card {
+    width: 400px;
+    background: #fff;
+    margin: 16px auto; /* Center alligned, 16px from the top */
+    padding: 8px;
 
-.text .child {
-  color: red;
-  font-size: 14px;
-}
+  }
+  
+  .title {
+    font-size: 16px;
+    background: #e3f4ff;
+    padding: 8px;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  
+  .content {
+    background: #e3f4ff;
+    margin: 0, 0, 8px;
+    padding: 8px;
 
+  }
+  
+  .button-container {
+    background: #e3f4ff;
+    margin: 8px;
+    padding: 8px;
+    text-align: center;
+
+  }
+  
+  button {
+    background: white;
+    border: 1px solid #eee;
+    display: block;
+    margin: 0 auto; /* Stacks inline elements (the button) rather than side by side */
+    padding: 8px, 24px;
+  }
